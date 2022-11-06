@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <body class="b3">
+    <link href="./style.css" rel="stylesheet"> 
+        
+            <head>
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              <style>
+              .dropbtn {
+                background-color: black;
+                color: white;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+              }
+              
+              .dropdown {
+                position: relative;
+                display: inline-block;
+              }
+              
+              .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: lightblue;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+              }
+              
+              .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+              }
+              
+              .dropdown-content a:hover {background-color:white;}
+              
+              .dropdown:hover .dropdown-content {display: block;}
+              
+              .dropdown:hover .dropbtn {background-color:black;}
+              </style>
+              <div class="dropdown">
+                 <button class="dropbtn">Navigation</button>
+                 <div class="dropdown-content">
+              
+              <a href="./Assignment_HTMLPortfolio.html">Home</a>
+              </div>
+          
+          </head>
+          
+          <form>
+            <h2> Feedback!</h2>
+            <label for = "name"> Enter your name:</label>
+            <input type="text" name ="name" id = "name">
+            <br> <br>
+            <label for = "rating"> Rate this website on a scale of 5: </label>
+            <input type="number" min="0" max="5" name="rating" id="rating" step="1">
+            <br><br>
+            <label for ="suggestions">Any suggestions? </label>
+            <br><br>
+            
+            <textarea name="paragraph_text" cols="50" rows="10">Please type here..</textarea>
+            <br><br>
+            
+            <input type="submit" name="submit" id="submit" value="Submit">
+          </form>
+          <h3>Thank you!</h3>
+
+        </body>
+
+
+
+
+
+
+</html>

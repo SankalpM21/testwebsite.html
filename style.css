@@ -1,0 +1,109 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.b1{
+  background-color: black;
+}
+.b2 {
+  background-image: url('https://www.lanacion.com.ar/resizer/v4fH0uZZXDWDxeY_KnqNA2whbXM=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/I4AZF7UJAVGJLPJCLSGUH73HAQ.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size:100% ;
+}
+.b3 {
+  background-image: url('https://www.lanacion.com.ar/resizer/v4fH0uZZXDWDxeY_KnqNA2whbXM=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/I4AZF7UJAVGJLPJCLSGUH73HAQ.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size:100% ;
+}
+.b4 {
+  background-image: url('https://www.lanacion.com.ar/resizer/v4fH0uZZXDWDxeY_KnqNA2whbXM=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/I4AZF7UJAVGJLPJCLSGUH73HAQ.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size:100% ;
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:white;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:black;}
+  
+#title1{
+    color:firebrick;
+}
+
+#first{
+    color:black;
+    font-size: 20px;
+}
+
+#quote{
+    background-color:lightskyblue;
+}
+  #heading{
+            background-color: firebrick;
+        }
+  #hammerquote{
+    background-color:lightskyblue;
+  }
+  #submit{
+    background-color:lightskyblue;
+  }
+  #video {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color:black;
+}
+.firstline{
+  background-color: gold;
+}
+.cap1{
+  background-color: gold;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.imgtitle{
+  color: crimson;
+}
+a[href*="Assignment_HTMLPortfolio"]{
+  color:crimson;
+}
